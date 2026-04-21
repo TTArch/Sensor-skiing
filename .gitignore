@@ -31,7 +31,9 @@ yarn-error.*
 *.pem
 
 # local env files
-.env*.local
+.env
+.env.*
+*.local
 
 # typescript
 *.tsbuildinfo
@@ -39,3 +41,20 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Test coverage
+coverage/
+
+# Temporary files
+*.tmp
+*.temp

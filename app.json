@@ -13,7 +13,10 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSBluetoothAlwaysUsageDescription": "SkiCoach needs Bluetooth to connect to your pressure sensor insoles."
+      }
     },
     "android": {
       "adaptiveIcon": {
